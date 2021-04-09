@@ -18,39 +18,48 @@ The purpose of this study is to build several machine learning models employing 
 
 ## Overview of Approach
 
-In the study, *credit card customer data* is used.   Python and Scikit-learn library were used to predict credit risk.  Resampling and ensemble techniques were used  to address imbalanced data when building the models.
+In the study, *credit card customer data* is used.   
+Python and Scikit-learn library were used to predict credit risk.  
+Resampling and ensemble techniques were used  to address imbalanced data when building the models.
 
 For the resampling technique Credit card customer data is oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Also, a combinatorial approach is presented including over- and undersampling using the SMOTEENN algorithm. 
 
 For the ensemble technique, the  BalancedRandomForestClassifier and EasyEnsembleClassifier were used.
 
-Balanced Accuracy Score, recall, and precision are used to compare among the six different machine learning models.
+Balanced Accuracy Score, recall, and precision are interpreted to compare among the six machine learning models and recommend wheter or not the can be used to predict credit risk.
 
 
 ## Results
 
-1. whetther or not you can be used to predict credit risk
+### Logistic Regression
+
+#### Resampling
+
+##### Oversampling
+
+* Naive Random Oversampling:
+
+* SMOTE Oversampling:
+
+
+##### Undersampling
+
+* ClusterCentroids:
+
+##### Combination of Under and Over sampling
+
+* SMOTEENN:
+
+### Decision Trees
+
+* BalancedRandomForestClassifier:
+
+
+* EasyEnsembleClassifier: 
 
 
 
-1. whetther or not you can be used to predict credit risk
 
-
-
-1. whetther or not you can be used to predict credit risk
-
-
-
-
-1. whetther or not you can be used to predict credit risk
-
-
-
-
-1. whetther or not you can be used to predict credit risk
-
-
-1. whetther or not you can be used to predict credit risk
 
 
 
