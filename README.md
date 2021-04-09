@@ -20,6 +20,7 @@ The purpose of this study is to build several machine learning models employing 
 
 In the study, *credit card customer data* is used.   
 Python and Scikit-learn library were used to predict credit risk.  
+Logistic Regression and Decision Trees methods were used to train the model.
 Resampling and ensemble techniques were used  to address imbalanced data when building the models.
 
 For the resampling technique Credit card customer data is oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Also, a combinatorial approach is presented including over- and undersampling using the SMOTEENN algorithm. 
@@ -31,32 +32,50 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 
 ## Results
 
-### Logistic Regression
+### LOGISTIC REGRESSION MODEL
 
-#### Resampling
+In the next graph we can see the performance result of each model.
+
+
+Pic
+
+
+
+#### RESAMPLING: 
+
+Class imbalance is a common problem in classification. It occurs when one class is much larger than the other class. There are techniques to address this issue.  
 
 ##### Oversampling
 
-* Naive Random Oversampling:
+* Naive Random Oversampling: 
+
+fffff
 
 * SMOTE Oversampling:
 
+ xx
 
 ##### Undersampling
 
 * ClusterCentroids:
 
-##### Combination of Under and Over sampling
+ xxx
+
+##### COMBINATION OF OVER AND UNDER SAMPLING
 
 * SMOTEENN:
+xxx
 
-### Decision Trees
+### DECISION TREES
+
+#### ENSEMBLE
 
 * BalancedRandomForestClassifier:
-
+xx
 
 * EasyEnsembleClassifier: 
 
+xx
 
 
 
