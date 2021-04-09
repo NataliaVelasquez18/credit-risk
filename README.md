@@ -31,9 +31,7 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 
 
 ## Results
-
-
-<img scr="https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" />
+<img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="450" height="350" />
 
 ### LOGISTIC REGRESSION
 
