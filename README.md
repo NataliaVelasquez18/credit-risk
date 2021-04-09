@@ -32,13 +32,10 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 
 ## Results
 
-### LOGISTIC REGRESSION MODEL
 
-In the next graph we can see the performance result of each model.
+<img scr="https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" />
 
-
-Pic
-
+### LOGISTIC REGRESSION
 
 
 #### RESAMPLING: 
