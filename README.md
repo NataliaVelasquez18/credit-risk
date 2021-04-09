@@ -18,8 +18,22 @@ The purpose of this study is to build several machine learning models employing 
 
 ## Overview of Approach
 
-In the study we used the credit card credit dataset from PureLending.   Python and Scikit-learn were used to predict credit risk.  
-Evaluate several machine learning models to predict credit risk
+In the study, *credit card customer data* is used.   Python and Scikit-learn library were used to predict credit risk.  Resampling and ensemble techniques were used  to address imbalanced data.  Later, there is a comparison of the models performance and ain terms of accuracy, precision, and sensitivity.
+
+1. Resampling - SMOTE
+
+        *Oversample: Random - RandomOverSampler, SMOTE
+        
+Undersample: ClusterCentroids
+
+
+2. Ensemble: 
+
+       * Balanced Random Forest Classifier: BalancedRandomForestClassifierEasy
+       * Easy Ensemble AdaBoost classifier: EnsembleClassifier
+
+
+we built algorithms 
 compare stranghts and weaknesses and asses how well a model can predict
 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
@@ -27,7 +41,28 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results
 
+1. whetther or not you can be used to predict credit risk
 
+
+
+1. whetther or not you can be used to predict credit risk
+
+
+
+1. whetther or not you can be used to predict credit risk
+
+
+
+
+1. whetther or not you can be used to predict credit risk
+
+
+
+
+1. whetther or not you can be used to predict credit risk
+
+
+1. whetther or not you can be used to predict credit risk
 
 
 
