@@ -9,7 +9,7 @@ PureLending is a financial institution with more than 30 years in the market.  I
 
 ## Purpose
 
-The purpose of this study is to build several machine learning models employing different techniques and compare them to recommend whether PureLending should switch from the traditional way of approving loan applications.  If the recommendation is to use machine learning then, the best performing model will be recommended. 
+The purpose of this study is to build several machine learning models employing different techniques and compare them to recommend whether PureLending should use them to predict credit risk.  
 
 
 ## Executive summary
@@ -18,25 +18,13 @@ The purpose of this study is to build several machine learning models employing 
 
 ## Overview of Approach
 
-In the study, *credit card customer data* is used.   Python and Scikit-learn library were used to predict credit risk.  Resampling and ensemble techniques were used  to address imbalanced data.  Later, there is a comparison of the models performance and ain terms of accuracy, precision, and sensitivity.
+In the study, *credit card customer data* is used.   Python and Scikit-learn library were used to predict credit risk.  Resampling and ensemble techniques were used  to address imbalanced data when building the models.
 
-1. Resampling - SMOTE
+For the resampling technique Credit card customer data is oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Also, a combinatorial approach is presented including over- and undersampling using the SMOTEENN algorithm. 
 
-        *Oversample: Random - RandomOverSampler, SMOTE
-        
-Undersample: ClusterCentroids
+For the ensemble technique, the  BalancedRandomForestClassifier and EasyEnsembleClassifier were used.
 
-
-2. Ensemble: 
-
-       * Balanced Random Forest Classifier: BalancedRandomForestClassifierEasy
-       * Easy Ensemble AdaBoost classifier: EnsembleClassifier
-
-
-we built algorithms 
-compare stranghts and weaknesses and asses how well a model can predict
-
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
+Balanced Accuracy Score, recall, and precision are used to compare among the six different machine learning models.
 
 
 ## Results
