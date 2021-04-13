@@ -33,20 +33,18 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 ## Results
 
 
-1. High Risk Loan Application
-<img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="750" height="350" />
+High Risk Loan Application
+
+<img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="750" height="250" />
 
 
-2. Low-Risk Application Loan
-
-add
 
 ### LOGISTIC REGRESSION
 
 
 #### RESAMPLING: 
 
-Class imbalance is a common problem in classification. It occurs when one class is much larger than the other class.  In this scenario, a large number of credit card aplications are of low risk of default, and only a small number are high risk. For example, let's say that out of 100,000 credit card loan applications, 50 default and the rest are repaid. The pronounced imbalance between the two classes (high risk of default and low risk default) can cause machine learning models to be biased toward the majority class. The following techniques address this issue.
+Class imbalance is a common problem in classification. It occurs when one class is much larger than the other class.  In this scenario, a large number of credit card aplications are of low risk of default, and only a small number are high risk. The pronounced imbalance between the two classes (high risk of default and low risk default) can cause machine learning models to be biased toward the majority class. The following techniques address this issue.
 
 ##### Oversampling
 
