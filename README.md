@@ -18,7 +18,7 @@ The purpose of this study is to build several machine learning models employing 
 
 ## Overview of Approach
 
-In the study, *credit card customer data* is used.   
+In the study, credit card customer data is used.   
 Python and Scikit-learn library were used to predict credit risk.  
 Logistic Regression and Decision Trees methods were used to train the model.
 Resampling and ensemble techniques were used  to address imbalanced data when building the models.
@@ -34,7 +34,6 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 
 
 1. High Risk Loan Application
-2. 
 <img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="750" height="350" />
 
 
