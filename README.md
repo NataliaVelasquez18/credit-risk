@@ -14,7 +14,7 @@ The purpose of this study is to build several machine learning models employing 
 
 ## Executive summary
 
-
+* here
 
 ## Overview of Approach
 
@@ -96,8 +96,6 @@ xx
 * EasyEnsembleClassifier: 
 
 xxddd
-
-
 
 
 
