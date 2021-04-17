@@ -33,6 +33,17 @@ Balanced Accuracy Score, recall, and precision are interpreted to compare among 
 ## Results
 
 
+
+* First look at acc score...good!
+* however, Precision is too low and that is not good
+* overall f1 score is low so this model is not .....recommended to use this model to predict creddit risk..improve the models over time 
+
+
+not a good model in predicting hrisk.  
+Recommend to use other methods to improve the models
+mention highest and lowest.
+
+
 High Risk Loan Application
 
 <img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="750" height="250" />
