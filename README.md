@@ -82,31 +82,7 @@ Even though the accuracy score of 65% this metric is not always the best metric.
 
 
 
-* SMOTE Oversampling:
 
- xx
-
-##### Undersampling
-
-* ClusterCentroids:
-
- xxx
-
-##### COMBINATION OF OVER AND UNDER SAMPLING
-
-* SMOTEENN:
-xxx
-
-### DECISION TREES
-
-#### ENSEMBLE
-
-* BalancedRandomForestClassifier:
-xx
-
-* EasyEnsembleClassifier: 
-
-xxddd
 
 
 
