@@ -21,12 +21,11 @@ The purpose of this study is to build several machine learning models employing 
 * Accuracy Score, recall, precision, and F1 socre are interpreted to compare among the six machine learning models and recommend whether or not we can use one to predict credit risk.
 
 
-
-
 ## Results
+ 
+* Ada Boost is the model that performed the best.
 
-
-* Eventhough, the accuracy score is x, the overall f1 score is low so this model is not recommended to to predict credit risk. It is recommended to use other methods to improve the model over time.
+* Eventhough, the accuracy score is 93%, the overall f1 score is low so this model is not recommended to to predict credit risk. It is recommended to use other methods to improve the model over time.
 
 High Risk Loan Application
 
