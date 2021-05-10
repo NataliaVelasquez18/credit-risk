@@ -12,22 +12,15 @@ PureLending is a financial institution with more than 30 years in the market.  I
 The purpose of this study is to build several machine learning models employing different techniques and compare them to recommend whether PureLending should use them to predict credit risk.  
 
 
-## Executive summary
-
-* here
-
 ## Overview of Approach
 
-In the study, credit card customer data is used.   
-Python and Scikit-learn library were used to predict credit risk.  
-Logistic Regression and Decision Trees methods were used to train the model.
-Resampling and ensemble techniques were used  to address imbalanced data when building the models.
+* Scikit-learn, a python library was used to built several classification models to help us predict credit risk. Then, the best performing one was selected.
 
-For the resampling technique Credit card customer data is oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Also, a combinatorial approach is presented including over- and undersampling using the SMOTEENN algorithm. 
+* Ensemble and resample methods were used when building the models.
 
-For the ensemble technique, the  BalancedRandomForestClassifier and EasyEnsembleClassifier were used.
+* Accuracy Score, recall, precision, and F1 socre are interpreted to compare among the six machine learning models and recommend whether or not we can use one to predict credit risk.
 
-Balanced Accuracy Score, recall, and precision are interpreted to compare among the six machine learning models and recommend wheter or not the can be used to predict credit risk.
+
 
 
 ## Results
@@ -40,5 +33,3 @@ High Risk Loan Application
 <img src= "https://github.com/NataliaVelasquez18/credit-risk/blob/main/Resources/summary.png" width="750" height="250" />
 
 
-
-## Summary
